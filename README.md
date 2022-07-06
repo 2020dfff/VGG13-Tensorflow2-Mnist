@@ -20,34 +20,28 @@
 
 - #### 用法示例索引
 
-  - ##### 1-全连接层用法
-
+  - **1-全连接层用法**
     - `tf.keras.layers.Dense(),tf.keras.Sequential()`
     - `tf.losses.categorical_crossentropy(from_logits=Trye)`<==>`tf.nn.softmax_cross_entropy_with_logits()`
-
-  - ##### 2-Tensorboard可视化
-
+    
+  - **2-Tensorboard可视化**
     - `tf.summary.create_file_writer()`
-
-  - ##### 3-通过Keras高级API进行网络训练
-
+    
+  - **3-通过Keras高级API进行网络训练**
     - `model.build(),model.compile(),model.fit(),model.evaluate()`
     - `tf.keras.losses.CategoricalCrossentropy()`
-
-  - ##### 4-自定义Layer层并通过`keras.Sequential`进行训练
-
-  - ##### 5-自定义Layer层并通过自定义Model搭建模型
-
+    
+  - **4-自定义Layer层并通过`keras.Sequential`进行训练**
+  
+  - **5-自定义Layer层并通过自定义Model搭建模型**
+  
   - **6-模型的加载与保存**
-
     - `model.save_weights(),model.save(),tf.saved_model`
+    
+  - **7-保存模型并完成追加训练**
 
-  - ##### 7-保存模型并完成追加训练
-
-  - ##### 8-卷积层的使用
-
+  - **8-卷积层的使用**
     - `tf.keras.layers.Conv2d(),tf.keras.layers.Flatten()`
-
-  - ##### 9-BN层的使用
-
-    - `tf.keras.layers.BatchNormalization()`
+    
+  - **9-BN层的使用**
+  - `tf.keras.layers.BatchNormalization()`

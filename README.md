@@ -22,7 +22,7 @@
 
   - **1-全连接层用法**
     - `tf.keras.layers.Dense(),tf.keras.Sequential()`
-    - `tf.losses.categorical_crossentropy(from_logits=Trye)`<==>`tf.nn.softmax_cross_entropy_with_logits()`
+    - `tf.losses.categorical_crossentropy(from_logits=True)`<==>`tf.nn.softmax_cross_entropy_with_logits()`
     
   - **2-Tensorboard可视化**
     - `tf.summary.create_file_writer()`
